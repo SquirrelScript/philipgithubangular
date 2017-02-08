@@ -1,0 +1,43 @@
+{
+  "name": "node-todo",
+  "version": "0.0.0",
+  "description": "Simple todo application.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "main": "server.js",
+  "author": "Scotch",
+  "dependencies": {
+    "angular-chart.js": "^1.1.1",
+    "body-parser": "latest",
+    "dotenv": "^2.0.0",
+    "express": "latest",
+    "highcharts-ng": "^1.0.0",
+    "method-override": "latest",
+    "mongoose": "latest",
+    "mongoose-unique-validator": "^1.0.2",
+    "morgan": "latest",
+    "socket.io": "^1.4.8",
+    "webdriver-manager": "^11.1.1"
+  },
+  "devDependencies": {
+    "angular-mocks": "^1.6.1",
+    "chai": "^3.5.0",
+    "jsdom": "^3.1.2",
+    "mocha": "^3.2.0",
+    "protractor": "^5.0.0",
+    "webdriver-manager": "10.1.1"
+  },
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phillipclarke29/webanagram.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phillipclarke29/webanagram/issues"
+  },
+  "homepage": "https://github.com/phillipclarke29/webanagram#readme"
+}

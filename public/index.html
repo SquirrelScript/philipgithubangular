@@ -21,8 +21,11 @@
   <body class="container">
     <div ng-controller ="MainCtrl">
 
-    <h1> GitHub API</h1>
-      {{data}}
+    <h1> GitHub API - hello claire</h1>
+    {{data}}
+    <div ng-repeat="user in data">
+      {{user.login}}
+    </div>
   </div>
 </body>
 </html>

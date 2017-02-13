@@ -18,6 +18,10 @@
 }
 
 .usertable{
+    font-size: 30px;
+    width: 50%;
+}
 
-    width: 75%;
+.right {
+  text-align: right;
 }

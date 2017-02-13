@@ -21,13 +21,11 @@
   <body class="container">
     <div ng-controller ="MainCtrl">
 
-    <h1> GitHub API - hello claire</h1>
+    <h1>GitHub API</h1>
 
     <div ng-repeat="user in data">
 
       <table class="usertable">
-        <col align="left">
-        <col align="right">
       <tr>
         <td>{{user.login}}</td>
         <td class="right"><img src={{user.avatar_url}} alt="Mountain View" style="width:150px;height:114px;"></td>

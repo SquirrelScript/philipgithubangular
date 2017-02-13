@@ -4,7 +4,7 @@
 
 ##Start with node server.js
 
-Simple angular app to play with the github api
+Simple angular app to play with the github api - please note you will need to add your own token to the url
 
 ## On the web!
 

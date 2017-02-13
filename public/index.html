@@ -22,9 +22,19 @@
     <div ng-controller ="MainCtrl">
 
     <h1> GitHub API - hello claire</h1>
-    {{data}}
+
     <div ng-repeat="user in data">
-      {{user.login}}
+
+      <table class="usertable">
+        <col align="left">
+        <col align="right">
+      <tr>
+        <td>{{user.login}}</td>
+        <td class="right"><img src={{user.avatar_url}} alt="Mountain View" style="width:150px;height:114px;"></td>
+
+      </tr>
+    </table>
+
     </div>
   </div>
 </body>

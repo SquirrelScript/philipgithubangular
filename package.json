@@ -19,15 +19,14 @@
     "mongoose-unique-validator": "^1.0.2",
     "morgan": "latest",
     "socket.io": "^1.4.8",
+    "supertest": "^3.0.0",
     "webdriver-manager": "^11.1.1"
   },
   "devDependencies": {
     "angular-mocks": "^1.6.1",
     "chai": "^3.5.0",
-    "jsdom": "^3.1.2",
-    "mocha": "^3.2.0",
-    "protractor": "^5.0.0",
-    "webdriver-manager": "10.1.1"
+    "chai-http": "^2.0.1",
+    "mocha": "^3.2.0"
   },
   "directories": {
     "test": "tests"

@@ -15,7 +15,7 @@ app.get('/', function(req, res) {
 });
 
 app.get('/thing', function(req, res) {
-   res.send(token);
+   res.send("heloo");
 });
 
 
